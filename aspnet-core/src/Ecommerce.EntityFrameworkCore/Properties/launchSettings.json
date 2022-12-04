@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Ecommerce.EntityFrameworkCore": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:65073;http://localhost:65075"
+    }
+  }
+}
