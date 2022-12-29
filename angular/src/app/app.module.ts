@@ -1,3 +1,4 @@
+import { AppLayoutModule } from './layout/app.layout.module';
 import { AccountConfigModule } from '@abp/ng.account/config';
 import { CoreModule } from '@abp/ng.core';
 import { registerLocale } from '@abp/ng.core/locale';
@@ -29,6 +30,7 @@ import { APP_ROUTE_PROVIDER } from './route.provider';
     TenantManagementConfigModule.forRoot(),
     SettingManagementConfigModule.forRoot(),
     ThemeBasicModule.forRoot(),
+    AppLayoutModule,
   ],
   declarations: [AppComponent],
   providers: [APP_ROUTE_PROVIDER],
